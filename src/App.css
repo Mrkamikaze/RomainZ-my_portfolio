@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  margin: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+          /*PC*/
+.tabloid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  top: 0%;
+  left: 1%;
+  z-index: 0;
+  background: url("./images/giphy.gif");
+  background-size: cover;
+}
+
+/* list of directory */
+.list {
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  z-index: 0;
+  background: #1D1110;
+}
+
+/* header */
+.headerBand {
+  position: absolute;
+  width: 100%;
+  height: 18.5%;
+  z-index: 1;
+  background: #3b3b3e;
+}
+
+/* search bar */
+
+.search {
+  position: absolute;
+  width: 80%;
+  height: 10%;
+  left: 11%;
+  top: 4%;
+  font-family: 'Inter';
+  font-style: normal;
+  text-align: left;
+  z-index: 2;
+  background: #D9D9D9;
+  .text {
+    margin-left: 1%;
+    margin-top: 1%;
+    font-size: 3vw;
+  }
+}
+
+/* current path */
+.current {
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  right: 55%;
+  top: 6.75%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 400%;
+  line-height: 30%;
+  z-index: 1;
+  color: #0C0B0B;
+}
+
+/*@media (max-width: 768px) {*/
+  .HomeButton {
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    top: 30%;
+    left: 0%;
+    z-index: 1;
+    border-radius: 20px;
+    font-size: 2vw;
+    cursor: pointer;
+    &:active {
+      background-color: red;
+      transition: background-color 0.5s;
+    }
+  }
+
+  .ProjectsButton {
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    top: 40%;
+    left: 0%;
+    z-index: 1;
+    border-radius: 20px;
+    font-size: 2vw;
+    cursor: pointer;
+    &:active {
+      background-color: red;
+      transition: background-color 0.5s;
+    }
+  }
+
+  .SkillsButton {
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    top: 35%;
+    left: 0%;
+    z-index: 1;
+    border-radius: 20px;
+    font-size: 2vw;
+    cursor: pointer;
+    /* &:hover {
+      background-color: blue;
+      transition: background-color 0.5s;
+    } */
+    &:active {
+      background-color: red;
+      transition: background-color 0.5s;
+    }
+  }
+
+  .LinksButton {
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    top: 45%;
+    left: 0%;
+    z-index: 1;
+    border-radius: 20px;
+    font-size: 2vw;
+    cursor: pointer;
+    /* &:hover {
+      background-color: blue;
+      transition: background-color 0.5s;
+    } */
+    &:active {
+      background-color: red;
+      transition: background-color 0.5s;
+    }
+  }
+

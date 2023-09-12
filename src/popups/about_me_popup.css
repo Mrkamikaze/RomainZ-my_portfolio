@@ -1,0 +1,27 @@
+.aboutmetooltip {
+    position: absolute;
+    background: grey;
+    color: black;
+    display: flex;
+    visibility: hidden;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    font-size: 1.5vw;
+    top: 400%;
+    left: 17%;
+    max-width: 13%;
+    max-height: 40%;
+    padding: 1%;
+    border-radius: 3%;
+    z-index: 2;
+  }
+  .aboutmetooltip-arrow {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 1%;
+    border-width: 15%;
+    border-style: solid;
+    border-color: transparent transparent grey;
+  }
+  

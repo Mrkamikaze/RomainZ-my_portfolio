@@ -1,0 +1,136 @@
+
+.file1 {
+    position: absolute;
+    width: 17%;
+    height: 250%;
+    top: 225%;
+    left: 15%;
+    z-index: 1;
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2vw;
+        top: 20%;
+    }
+}
+
+.file2 {
+    position: absolute;
+    width: 17%;
+    height: 250%;
+    top: 225%;
+    left: 45%;
+    z-index: 1;
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2vw;
+        top: 20%;
+    }
+}
+
+.file3 {
+    position: absolute;
+    width: 17%;
+    height: 250%;
+    top: 225%;
+    left: 75%;
+    z-index: 1;
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2vw;
+        top: 20%;
+    }
+}
+
+.photoRomainZ {
+    position: absolute;
+    width: 16%;
+    height: 250%;
+    top: 225%;
+    left: 75%;
+    z-index: 1;
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2vw;
+        top: 20%;
+    }
+}
+
+
+.file4 {
+    position: absolute;
+    width: 17%;
+    height: 250%;
+    top: 550%;
+    left: 15%;
+    z-index: 1;
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2vw;
+        top: 20%;
+    }
+}
+
+.file5 {
+    position: absolute;
+    width: 17%;
+    height: 250%;
+    top: 550%;
+    left: 45%;
+    z-index: 1;
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2vw;
+        top: 20%;
+    }
+}
+
+.file6 {
+    position: absolute;
+    width: 17%;
+    height: 250%;
+    top: 550%;
+    left: 75%;
+    z-index: 1;
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        text-align: center;
+        color: #ffffff;
+        font-size: 2vw;
+        top: 20%;
+    }
+}
+
+

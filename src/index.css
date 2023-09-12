@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* index.css */
+/* ul li a {
+  color: #000;
+ }
+ 
+ ul li a:hover {
+  color: #00a8ff;
+ }
+ 
+ ul li a.active {
+  color: #00a8ff;
+ } */
+
+ @media (min-width: 600px) {             /*PC*/
+  .tabloid {
+    position: relative;
+    width: 1920px;
+    height: 800px;
+    top: -120px;
+    background: #1234FA;
+  }
+  
+  /* list of directory */
+  .list {
+    position: absolute;
+    width: 279px;
+    height: 800px;
+    left: -10px;
+    top: 180px;
+    z-index: 0;
+    background: #1D1110;
+  }
+  
+  /* header */
+  .headerBand {
+    position: 'relative';
+    width: 1920px;
+    height: 300px;
+    z-index: 1;
+    background: #3b3b3e;
+  }
+  
+  /* search bar */
+  
+  .search {
+    position: absolute;
+    width: 1400px;
+    height: 104px;
+    left: 240px;
+    top: 33px;
+    background: #D9D9D9;
+  }
+  
+  /* current path */
+  .current {
+    position: absolute;
+    width: 880px;
+    height: 44px;
+    left: 203px;
+    top: 70px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 15px;
+    color: #0C0B0B;
+  }
+  
+  /*@media (max-width: 768px) {*/
+    .HomeButton {
+      position: absolute;
+      width: 270px;
+      height: 50px;
+      top: 300px;
+      left: 0px;
+      z-index: 1;
+      border-radius: 20px;
+      font-size: 40px;
+      cursor: pointer;
+      &:active {
+        background-color: red;
+        transition: background-color 0.5s;
+      }
+    }
+  
+    .ProjectsButton {
+      position: absolute;
+      width: 270px;
+      height: 50px;
+      top: 400px;
+      left: 0px;
+      z-index: 1;
+      border-radius: 20px;
+      font-size: 40px;
+      cursor: pointer;
+      &:active {
+        background-color: red;
+        transition: background-color 0.5s;
+      }
+    }
+  
+    .SkillsButton {
+      position: absolute;
+      width: 270px;
+      height: 50px;
+      top: 350px;
+      left: 0px;
+      z-index: 1;
+      border-radius: 20px;
+      font-size: 40px;
+      cursor: pointer;
+      /* &:hover {
+        background-color: blue;
+        transition: background-color 0.5s;
+      } */
+      &:active {
+        background-color: red;
+        transition: background-color 0.5s;
+      }
+    }
+  }
